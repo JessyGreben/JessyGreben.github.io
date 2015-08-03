@@ -35,6 +35,8 @@ $( document ).ready(function() {
 	    } else {
 	      displayPhoneNumberError();
 	    }
+		}
+	}
 
 	var showSaved = function() {
 		$('.user-info-form').hide();
