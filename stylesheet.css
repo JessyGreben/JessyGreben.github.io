@@ -1,0 +1,11 @@
+.error {
+	border: 1px solid;
+	color: #D8000C;
+	background-color: #FFBABA;
+}
+
+.saved-notification {
+	border: 1px solid;
+	color: #4F8A10;
+	background-color: #DFF2BF;
+}
