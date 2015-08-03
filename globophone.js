@@ -6,7 +6,7 @@ $( document ).ready(function() {
 
 	function isLocalStorageEmpty() {
 		if (localStorage.length === 0) {
-			$(".delete-btn").hide();
+			$(".delete-btn-container").hide();
 		} else {
 			var savedName = localStorage.getItem('name');
 			var savedNumber = localStorage.getItem('number');
@@ -38,7 +38,7 @@ $( document ).ready(function() {
 			} else if (isValid(phoneNumber)) {
 	      localStorage.setItem('number', phoneNumber);
 		  	localStorage.setItem('name', name);
-				$(".delete-btn").show();
+				$(".delete-btn-container").show();
 		  	showSaved();
 	    } else {
 	      displayPhoneNumberError();
